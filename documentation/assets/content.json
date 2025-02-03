@@ -1,0 +1,56 @@
+{
+    "settings": {
+        "name": "Settings",
+        "code": "0921",
+        "html-code": "yf-settings",
+        "category": "general"
+    },
+    "settings-1": {
+        "name": "Settings 1",
+        "code": "0922",
+        "html-code": "yf-settings-1",
+        "category": "general"
+    },
+    "home": {
+        "name": "Home",
+        "code": "0910",
+        "html-code": "yf-home",
+        "category": "general"
+    },
+    "arrow-up": {
+        "name": "Arrow Up",
+        "code": "0930",
+        "html-code": "yf-arrow-up",
+        "category": "arrows"
+    },
+    "arrow-down": {
+        "name": "Arrow Down",
+        "code": "0931",
+        "html-code": "yf-arrow-down",
+        "category": "arrows"
+    },
+    "cat": {
+        "name": "Cat",
+        "code": "0940",
+        "html-code": "yf-cat",
+        "category": "animals"
+    },
+    "dog": {
+        "name": "Dog",
+        "code": "0941",
+        "html-code": "yf-dog",
+        "category": "animals"
+    },
+    "play": {
+        "name": "Play",
+        "code": "0950",
+        "html-code": "yf-play",
+        "category": "audio-video"
+    },
+    "pause": {
+        "name": "Pause",
+        "code": "0951",
+        "html-code": "yf-pause",
+        "category": "audio-video"
+    }
+}

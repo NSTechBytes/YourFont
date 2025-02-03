@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Header Design</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/fonts/YourFont.css">
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
@@ -28,17 +28,24 @@
 
     <!-- Content Section -->
     <div class="content">
+        <i class="yf yf-home"></i> 
+
         <h2 class="bold-text">YourFont</h2>
         <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         <p class="description">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         <div class="search-container">
-            <input type="text" class="search-box" placeholder="Search...">
-            <button class="search-btn">
+            <input type="text" id="search-input" class="search-box" placeholder="Search...">
+            <button class="search-btn" onclick="performSearch()">
                 <i class="fa-solid fa-search"></i> Search
             </button>
         </div>
     </div>
-
-    <script src="script.js"></script>
+       <!-- Custom Notification -->
+       <div id="custom-notification" class="custom-notification hidden">
+        <p id="notification-message"></p>
+    </div>
+    <script src="assets/scripts/search.js"></script>
+    <script src="assets/scripts/color-mode.js"></script>
+    <script src="assets/scripts/script.js"></script>
 </body>
 </html>

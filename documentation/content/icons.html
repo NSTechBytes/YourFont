@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- YourFont CSS -->
+    <link rel="stylesheet" href="../assets/fonts/YourFont.css">
+</head>
+<body>
+    <div class="header">
+        <h1>YourFont</h1>
+        <div class="buttons">
+            <!-- Back Button -->
+            <a href="../index.html" class="back-btn">
+                <i class="fa-solid fa-arrow-left"></i> Back
+            </a>
+        </div>
+    </div>
+
+    <!-- Category Tabs -->
+    <div class="tabs">
+        <button class="tab-button active" data-category="all">All</button>
+        <button class="tab-button" data-category="animals">Animals</button>
+        <button class="tab-button" data-category="arrows">Arrows</button>
+        <button class="tab-button" data-category="audio-video">Audio-Video</button>
+    </div>
+
+    <!-- All Icons Section -->
+    <div class="content">
+        <h2 class="bold-text">All Icons</h2>
+        <div id="all-icons-container" class="results-grid">
+            <!-- Icons will be dynamically inserted here -->
+        </div>
+    </div>
+
+    <!-- Popup Box -->
+    <div id="popup-box" class="popup-box hidden">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup()">&times;</span>
+            <div class="icon-container">
+                <i id="popup-icon"></i> <!-- Icon will be dynamically styled -->
+            </div>
+            <div class="info-section">
+                <div class="info-row">
+                    <strong>Unicode:</strong>
+                    <div class="info-field">
+                        <span id="popup-unicode" class="code-display"></span>
+                        <button id="copy-unicode-button" onclick="copyUnicode()">Copy</button>
+                    </div>
+                </div>
+                <div class="info-row">
+                    <strong>HTML Code:</strong>
+                    <div class="info-field">
+                        <span id="popup-html-code" class="code-display"></span>
+                        <button id="copy-html-button" onclick="copyHtmlCode()">Copy</button>
+                    </div>
+                </div>
+                <div class="info-row">
+                    <strong>SVG Content:</strong>
+                    <div class="info-field">
+                        <pre id="popup-svg-content" class="svg-content"></pre>
+                        <button id="copy-svg-button" onclick="copySvgContent()">Copy</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom Notification -->
+    <div id="custom-notification" class="custom-notification hidden">
+        <p id="notification-message"></p>
+    </div>
+
+    <script src="../assets/scripts/icon-popup.js"></script>
+    <script src="../assets/scripts/script.js"></script>
+    <script src="../assets/scripts/color-mode.js"></script>
+</body>
+</html>
