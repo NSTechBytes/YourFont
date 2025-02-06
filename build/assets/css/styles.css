@@ -151,6 +151,7 @@ h1 {
   cursor: pointer;
   transition: all 0.3s;
   border: none;
+ 
 }
 
 .btn-primary {
@@ -174,6 +175,11 @@ h1 {
 
 .btn-large {
   padding: 1rem 2rem;
+}
+
+.btn-secondary {
+  background-color: #6c757d; /* Example gray color */
+  color: white;
 }
 
 /* Features Section */
@@ -241,7 +247,7 @@ footer {
   color: #3B82F6;
 }
 
-/* Contact Section */
+Contact Section
 .contact-section {
   padding: 8rem 1rem 5rem;
 }

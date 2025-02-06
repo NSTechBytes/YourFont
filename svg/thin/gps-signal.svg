@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="515" height="515">
+  <polygon fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" points="3,45 17,45 17,34 13.9,34" />
+  <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M29.5,9.2c4.8,0,8.7,4.2,8.7,9.3" />
+  <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M29.5,3C37.5,3,44,9.9,44,18.5" />
+  <circle cx="29.5" cy="18.5" r="3.5" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+  <line x1="27.7" x2="26" y1="21.5" y2="28" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+  <line x1="19" x2="26" y1="21" y2="19.3" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+  <rect width="16" height="4" x="1" y="45" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+  <path fill="#fff" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.8,10.7C5.1,14.5-0.5,26,10.3,37c9.9,10.1,22.2,5.3,26,1.5L8.8,10.7z" />
+</svg>
